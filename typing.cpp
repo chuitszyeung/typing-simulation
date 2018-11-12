@@ -14,7 +14,7 @@ int main(){
 	srand(time(NULL));
 	s.clear();
 	ifstream in;
-	in.open("/*file name goes here*/");
+	in.open("file name goes here"); // replace this with your true text file name
 	while(getline(in,s)){
 		for(int i=0;i<s.length();i++){
 			cout<<s.at(i);
